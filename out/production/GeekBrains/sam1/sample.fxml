@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<GridPane alignment="center" hgap="10" prefHeight="233.0" prefWidth="270.0" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sam1.Controller1">
+
+      <VBox prefHeight="32.0" prefWidth="100.0" GridPane.rowIndex="1">
+          <Button fx:id="delete" mnemonicParsing="false" onAction="#AC" prefHeight="32.0" prefWidth="50.0" text="AC" />
+      </VBox>
+      <Button mnemonicParsing="false" onAction="#four" prefHeight="31.0" prefWidth="50.0" text="4" GridPane.rowIndex="3" />
+      <Button mnemonicParsing="false" onAction="#seven" prefHeight="35.0" prefWidth="50.0" text="7" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" onAction="#one" prefHeight="36.0" prefWidth="50.0" text="1" GridPane.rowIndex="4" />
+      <Button mnemonicParsing="false" onAction="#isnull" prefHeight="32.0" prefWidth="50.0" text="0" GridPane.rowIndex="5" />
+      <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="50.0" text=" " GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="50.0" text=" " GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" onAction="#eit" prefHeight="30.0" prefWidth="50.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" onAction="#nine" prefHeight="30.0" prefWidth="50.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" onAction="#five" prefHeight="32.0" prefWidth="50.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button mnemonicParsing="false" onAction="#two" prefHeight="31.0" prefWidth="50.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Button mnemonicParsing="false" onAction="#six" prefHeight="30.0" prefWidth="50.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Button mnemonicParsing="false" onAction="#three" prefHeight="32.0" prefWidth="50.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="50.0" text="/" GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#del"/>
+      <Button fx:id="umnozh" mnemonicParsing="false" onAction="#umnozh" prefHeight="34.0" prefWidth="50.0" text="X" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="50.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="3" onAction="#minus"/>
+      <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="50.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4" onAction="#plus"/>
+      <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="50.0" text="=" GridPane.columnIndex="3" GridPane.rowIndex="5" onAction="#ravno"/>
+      <TextField fx:id="textField" alignment="TOP_LEFT" prefHeight="25.0" prefWidth="102.0" GridPane.columnIndex="1" />
+
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+
+</GridPane>
